@@ -206,30 +206,53 @@ def bitwa_main(poziom, postacG, postacP, PunktyGracza, PunktyPrzeciwnika, round)
             print("Gratulacje! Wygrałeś bitwę!")
             data["Gracz"]["Wygrane"] += 1
             if poziom == "1":
-                nagroda = data["Gracz"]["Portfel"] + 1000
+                nagroda = 1000
+                print("Wygrałeś {} bazylionów!".format(nagroda))
+                data["Gracz"]["Portfel"] += nagroda
+                print("Bazyliony dodane na konto. Powrót do menu!")
+                save_data(data, file_path)
+                Menu()
             elif poziom == "2":
-                nagroda = data["Gracz"]["Portfel"] + 2500
+                nagroda = 2500
+                print("Wygrałeś {} bazylionów!".format(nagroda))
+                data["Gracz"]["Portfel"] += nagroda
+                print("Bazyliony dodane na konto. Powrót do menu!")
+                save_data(data, file_path)
+                Menu()
             elif poziom == "3":
-                nagroda = data["Gracz"]["Portfel"] + 5000
-            print("Wygrałeś {} bazylionów!".format(nagroda))
-            print("Bazyliony dodane na konto. Powrót do menu!")
-            data["Gracz"]["Portfel"] = nagroda
-            save_data(data, file_path)
-            Menu()
+                nagroda = 5000
+                print("Wygrałeś {} bazylionów!".format(nagroda))
+                data["Gracz"]["Portfel"] += nagroda
+                print("Bazyliony dodane na konto. Powrót do menu!")
+                save_data(data, file_path)
+                Menu()
+
         elif PunktyPrzeciwnika == 2:
             print("Niestety! Przeciwnik wygrał bitwę!")
             data["Gracz"]["Przegrane"] += 1
             if poziom == "1":
-                nagroda = data["Gracz"]["Portfel"] + 200
+                nagroda = 200
+                print("Nagroda pocieszenia:  {} bazylionów!".format(nagroda))
+                data["Gracz"]["Portfel"] += nagroda
+                print("Bazyliony dodane na konto. Powrót do menu!")
+                save_data(data, file_path)
+                Menu()
             elif poziom == "2":
-                nagroda = data["Gracz"]["Portfel"] + 500
+                nagroda = 500
+                print("Nagroda pocieszenia:  {} bazylionów!".format(nagroda))
+                data["Gracz"]["Portfel"] += nagroda
+                print("Bazyliony dodane na konto. Powrót do menu!")
+                save_data(data, file_path)
+                Menu()
             elif poziom == "3":
-                nagroda = data["Gracz"]["Portfel"] + 1000
-            print("Nagroda pocieszenia:  {} bazylionów!".format(nagroda))
-            print("Bazyliony dodane na konto. Powrót do menu!")
-            data["Gracz"]["Portfel"] = nagroda
-            save_data(data, file_path)
-            Menu()
+                nagroda = 1000
+                print("Nagroda pocieszenia:  {} bazylionów!".format(nagroda))
+                data["Gracz"]["Portfel"] += nagroda
+                print("Bazyliony dodane na konto. Powrót do menu!")
+                save_data(data, file_path)
+                Menu()
+
+
 
 
 def Plecak():
