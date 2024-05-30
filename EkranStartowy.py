@@ -280,7 +280,7 @@ def Plecak():
     4 - EKRAN STARTOWY
     ''')
     a = str(input("Jaki jest twój wybór? (Wpisz od 1 do 4)"))
-    if a == 1:
+    if a == "1":
         print('''
             Dostępne rodzaje twoich zetonów:
             1 - Zetony Mocy
