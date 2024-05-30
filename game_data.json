@@ -1,0 +1,87 @@
+{
+    "Gracz": {
+        "Wygrane": 1,
+        "Przegrane": 0,
+        "NajwiekszaMoc": 1185.5,
+        "NajmniejszaMoc": 157,
+        "Portfel": 2500
+    },
+    "Spirala": {
+        "Nazwa": "\u017beton Spirali",
+        "Typ": "Mocy",
+        "Opis": "Persona Gracza = Płomieni, Mroku lub Lasu, a persona przeciwnika = Światła, Oceanu lub Gór - Dodajemy 200  punktów, inaczej 100 punktów",
+        "Ilosc": 20
+    },
+    "Pogromer": {
+        "Nazwa": "\u017beton Pogromer",
+        "Typ": "Mocy",
+        "Opis": "Dodajemy 200 punktów niezależnie od persony i statusu",
+        "Ilosc": 20
+    },
+    "Skrodo": {
+        "Nazwa": "\u017beton Skrodo",
+        "Typ": "Mocy",
+        "Opis": "Persona Gracza = Światła, Oceanu lub Gór, a persona przeciwnika = Płomieni, Mroku lub Lasu - Dodajemy 200  punktów, inaczej 100 punktów",
+        "Ilosc": 10
+    },
+    "Synteza": {
+        "Nazwa": "\u017beton Syntezy",
+        "Typ": "Mocy",
+        "Opis": "Tworzymy synteze dzieląc moc Przeciwnika na 2. Wynik syntezy dodajemy do mocy Gracza, a od mocy Przeciwnika odejmujemy",
+        "Ilosc": 10
+    },
+    "Dzeus": {
+        "Nazwa": "\u017beton Dzeusa",
+        "Typ": "Mocy",
+        "Opis": "Persona Gracza = Mroku lub Światła - Dodajemy 300 punktów, inaczej 150 punktów",
+        "Ilosc": 10
+    },
+    "Wulkanium": {
+        "Nazwa": "\u017beton Wulkanium",
+        "Typ": "Mocy",
+        "Opis": "Persona Gracza = Płomieni lub Oceanu - Dodajemy 300 punktów, inaczej 150 punktów",
+        "Ilosc": 10
+    },
+    "Istoty": {
+        "Nazwa": "\u017beton Istoty",
+        "Typ": "Mocy",
+        "Opis": "Persona Gracza = Lasu lub Gór - Dodajemy 300 punktów, inaczej 150 punktów",
+        "Ilosc": 20
+    },
+    "MetaGolem": {
+        "Nazwa": "\u017beton MetaGolema",
+        "Typ": "Obronny",
+        "Opis": "Persona Gracza = Lasu lub Gór - Odejmujemy Przeciwnikowi 200 punktów, inaczej 100 punktów",
+        "Ilosc": 10
+    },
+    "Tarczownik": {
+        "Nazwa": "\u017beton Tarczownika",
+        "Typ": "Obronny",
+        "Opis": "Persona Gracza = Mroku lub Oceanu - Odejmujemy Przeciwnikowi 200 punktów, inaczej 100 punktów",
+        "Ilosc": 10
+    },
+    "Honor": {
+        "Nazwa": "\u017beton Honoru",
+        "Typ": "Typ Obronny",
+        "Opis": "Persona Gracza = Płomieni lub Światła - Odejmujemy Przeciwnikowi 200 punktów, inaczej 100 punktów",
+        "Ilosc": 10
+    },
+    "Dominium": {
+        "Nazwa": "\u017beton Dominium",
+        "Typ": "Rozkazu",
+        "Opis": "Status Gracza = Helios lub Lassus, Dodajemy 200 punktów. Status Gracza = Helios lub Lassus oraz Status przeciwnika = Posejdon lub Supterra, Dodajemy 300 punktów i tyle samo odejmujemy przeciwnikowi. Inaczej dodajemy 150 punktów",
+        "Ilosc": 20
+    },
+    "Przedwieczny": {
+        "Nazwa": "\u017beton Przedwieczny",
+        "Typ": "Rozkazu",
+        "Opis": "Status Gracza = Phoenis lub Hekate, Dodajemy 300 punktów. Status Gracza = Phoenis lub Hekate oraz Status przeciwnika = Helios lub Lassus, Dodajemy 300 punktów oraz tworzymy synteze. Inaczej dodajemy 200 punktów",
+        "Ilosc": 20
+    },
+    "Prozny": {
+        "Nazwa": "\u017beton Pr\u00f3\u017cny",
+        "Typ": "Rozkazu",
+        "Opis": "Status Gracza = Posejdon lub Supterra, Dodajemy 300 punktów. Status Gracza =  Posejdon lub Supterra oraz Status przeciwnika = Phoenis lub Hekate, Dodajemy 250 punktów oraz tworzymy synteze dzieląc przez 1.5 bez odjęcia punktów przeciwnikowi. Inaczej dodajemy 250 punktów",
+        "Ilosc": 20
+    }
+}
