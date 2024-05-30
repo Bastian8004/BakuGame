@@ -436,7 +436,7 @@ def wyborG(MocG, postacG, MocP, postacP):
                 1 - Żeton MetaGolema
                 2 - Żeton Tarczownika
                 3 - Żeton Honoru
-                0 - Powrót do wyboru typu żetonu (Jeśli decydujesz się wrócić musisz wybrac zetony od nowa)
+                0 - Powrót do wyboru typu żetonu 
                 ''')
             x = str(input("Jaki jest twój wybór? (0 - 3): "))
             if x == "1":
