@@ -18,7 +18,6 @@ def load_data(filename="game_data.json"):
 
 data = load_data(file_path)
 
-# Żetony Mocy
 
 def ZetonSpiraliGracza(postacG, postacP, MocP, MocG):
     data["Spirala"]["Ilość"] -= 1
