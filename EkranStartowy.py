@@ -520,7 +520,7 @@ def maszyna():
         Następną nagrodę możesz odebrać za 1h
         Powrót do ekranu startowego
         ''')
-        save_data(data, file_path)  # Zapisz zmiany w danych gracza
+        save_data(data, file_path) 
         time.sleep(3)
         return Menu()
     elif take == "2":
@@ -540,7 +540,7 @@ def maszyna():
             Następną nagrodę możesz odebrać za 1h
             Powrót do ekranu startowego
             ''')
-            save_data(data, file_path)  # Zapisz zmiany w danych gracza
+            save_data(data, file_path)  
             time.sleep(3)
             return Menu()
         elif losuj >=50 and losuj <90:
@@ -557,7 +557,7 @@ def maszyna():
             Następną nagrodę możesz odebrać za 1h
             Powrót do ekranu startowego
             ''')
-            save_data(data, file_path)  # Zapisz zmiany w danych gracza
+            save_data(data, file_path)  
             time.sleep(3)
             return Menu()
         else:
@@ -575,7 +575,7 @@ def maszyna():
             Następną nagrodę możesz odebrać za 1h
             Powrót do ekranu startowego
             ''')
-            save_data(data, file_path)  # Zapisz zmiany w danych gracza
+            save_data(data, file_path)  
             time.sleep(3)
             return Menu()
 
