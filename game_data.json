@@ -1,22 +1,22 @@
 {
     "Gracz": {
-        "Wygrane": 1,
+        "Wygrane": 0,
         "Przegrane": 0,
-        "NajwiekszaMoc": 1185.5,
-        "NajmniejszaMoc": 157,
-        "Portfel": 2500
+        "NajwiekszaMoc": 0,
+        "NajmniejszaMoc": 200,
+        "Portfel": 0
     },
     "Spirala": {
         "Nazwa": "\u017beton Spirali",
         "Typ": "Mocy",
         "Opis": "Persona Gracza = Plomieni, Mroku lub Lasu, a persona przeciwnika = Swiatla, Oceanu lub Gor - Dodajemy 200  punktow, inaczej 100 punktow",
-        "Ilosc": 20
+        "Ilosc": 10
     },
     "Pogromer": {
         "Nazwa": "\u017beton Pogromer",
         "Typ": "Mocy",
         "Opis": "Dodajemy 200 punktow niezaleznie od persony i statusu",
-        "Ilosc": 20
+        "Ilosc": 10
     },
     "Skrodo": {
         "Nazwa": "\u017beton Skrodo",
@@ -46,7 +46,7 @@
         "Nazwa": "\u017beton Istoty",
         "Typ": "Mocy",
         "Opis": "Persona Gracza = Lasu lub Gor - Dodajemy 300 punktow, inaczej 150 punktow",
-        "Ilosc": 20
+        "Ilosc": 10
     },
     "MetaGolem": {
         "Nazwa": "\u017beton MetaGolema",
@@ -70,18 +70,18 @@
         "Nazwa": "\u017beton Dominium",
         "Typ": "Rozkazu",
         "Opis": "Status Gracza = Helios lub Lassus, Dodajemy 200 punktow. Status Gracza = Helios lub Lassus oraz Status przeciwnika = Posejdon lub Supterra, Dodajemy 300 punktow i tyle samo odejmujemy przeciwnikowi. Inaczej dodajemy 150 punktow",
-        "Ilosc": 20
+        "Ilosc": 10
     },
     "Przedwieczny": {
         "Nazwa": "\u017beton Przedwieczny",
         "Typ": "Rozkazu",
         "Opis": "Status Gracza = Phoenis lub Hekate, Dodajemy 300 punktow. Status Gracza = Phoenis lub Hekate oraz Status przeciwnika = Helios lub Lassus, Dodajemy 300 punktow oraz tworzymy synteze. Inaczej dodajemy 200 punktow",
-        "Ilosc": 20
+        "Ilosc": 10
     },
     "Prozny": {
         "Nazwa": "\u017beton Pr\u00f3\u017cny",
         "Typ": "Rozkazu",
         "Opis": "Status Gracza = Posejdon lub Supterra, Dodajemy 300 punktow. Status Gracza =  Posejdon lub Supterra oraz Status przeciwnika = Phoenix lub Hekate, Dodajemy 250 punktow oraz tworzymy synteze dzielac przez 1.5 bez odjecia punktow przeciwnikowi. Inaczej dodajemy 250 punktow",
-        "Ilosc": 20
+        "Ilosc": 10
     }
 }
