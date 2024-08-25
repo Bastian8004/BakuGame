@@ -7,6 +7,7 @@
     <li>Plecak z żetonami</li>
     <li>Sklep z możliwością zakupu żetonów</li>
 	<li>Walka z przeciwnikami</li>
+  <li>Zapis postępu rozgrywki</li>
 </ul>
 
 <h2>Technologie</h2>
